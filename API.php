@@ -59,8 +59,8 @@ $url_gambar = "http://aqillahfreshh.000webhostapp.com/";
             <?php foreach ($result as $value) : ?>
                 <td  style="width: 200px; height: 200px;" ><img src="<?= $url_gambar . $value["gambar"] ?>" style="width:100px;"> 
                     <br> 
-                    <br> NAMA : <br><?= $value["nama"]?> <br>
-                    <br> STOK : <br><?= $value["stok"] ?> <br>
+                    <br> NAMA BARANG : <br><?= $value["nama"]?> <br>
+                    <br> STOK BARANG : <br><?= $value["stok"] ?> <br>
                     <br> HARGA  : <br>Rp. <?= $value["harga"] ?><br> 
                     <br> <p>DESKRIPSI    : <?= $value['deskripsi']?></p><br>
                     <br> <button><a href="<?= $url_gambar . $value["gambar"] ?>" target="_blank">lihat barang</a></button></td>
